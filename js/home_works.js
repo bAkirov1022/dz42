@@ -33,13 +33,13 @@ const move = () => {
 
 move()
 //2 задача
-const display = document.querySelector('#seconds')
-const start = document.querySelector('#start')
-const stopp = document.querySelector('#stop')
-const reset = document.querySelector('#reset')
+const display = document.querySelector('#seconds'),
+    start = document.querySelector('#start'),
+    stopp = document.querySelector('#stop'),
+    reset = document.querySelector('#reset')
 
-let count = 0
-let timer = null
+let count = 0,
+    timer = null
 
 function update() {
     display.textContent = count
