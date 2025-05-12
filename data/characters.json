@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Минос Прайм",
+    "source": "ULTRAKILL",
+    "estimated_age": 3500,
+    "type": "Прайм Душа",
+    "image": "https://media.tenor.com/-WFVGDXbsicAAAAM/ultrakill-minos-prime.gif"
+  },
+  {
+    "name": "Санс/Королевский суд",
+    "source": "Undertale",
+    "estimated_age": 24,
+    "type": "Монстр",
+    "image": "https://media.tenor.com/G2EHKcZORpwAAAAM/spinning-spin.gif"
+  },
+  {
+    "name": "Зен Шигараки/Все За Одного",
+    "source": "My Hero Academia",
+    "estimated_age": 100,
+    "type": "Человек с модифицированным телом",
+    "image": "https://shikimori.one/system/user_images/original/89114/1946986.jpg"
+  },
+  {
+    "name": "Азриель Дримурр/Бог гиперсмерти",
+    "source": "Undertale",
+    "estimated_age": 12,
+    "type": "Монстр",
+    "image": "https://i.gifer.com/BFrA.gif"
+  },
+  {
+    "name": "Габриель/Судья Ада",
+    "source": "ULTRAKILL",
+    "estimated_age": 3000,
+    "type": "Архангел",
+    "image": "https://media.tenor.com/NzGB_F89laIAAAAM/gabriel-ultrakill.gif"
+  },
+  {
+    "name": "Марионетка",
+    "source": "Five Nights at Freddy's",
+    "estimated_age": "50+",
+    "type": "Аниматроник с душой",
+    "image": "https://media.tenor.com/PiNivNqhaNIAAAAM/fnaf-gangnam-style.gif"
+  },
+  {
+    "name": "Хибино Кафка/Кайдзю номер 8",
+    "source": "Kaiju No. 8",
+    "estimated_age": 32,
+    "type": "Гибрид человека и кайдзю",
+    "image": "https://i.pinimg.com/originals/2f/01/0f/2f010f9a38b5ea69a66e6547d888097c.gif"
+  },
+  {
+    "name": "Гароу/Охотник на героев",
+    "source": "One Punch Man",
+    "estimated_age": 18,
+    "type": "Человек-мутант",
+    "image": "https://i.pinimg.com/originals/82/94/fc/8294fcdefdece920743230b590d51e38.gif"
+  },
+  {
+    "name": "Сьюзи",
+    "source": "Deltarune",
+    "estimated_age": 16,
+    "type": "Монстр",
+    "image": "https://i.pinimg.com/originals/8f/87/9d/8f879dcbb7c9276dc9875f8db0fed678.gif"
+  },
+  {
+    "name": "Иван",
+    "source": "Alien Stage",
+    "estimated_age": "22",
+    "type": "Человек",
+    "image": "https://i.pinimg.com/736x/74/a6/6d/74a66d204489e108904b21ca6355e9b0.jpg"
+  },
+  {
+    "name": "Даби",
+    "source": "My Hero Academia",
+    "estimated_age": "24",
+    "type": "Человек с причудой",
+    "image": "https://www.meme-arsenal.com/memes/9137eb55d2c63783f65d2e130f8bbf97.jpg"
+  },
+  {
+    "name": "Джон",
+    "source": "Трилогия книг FNaF",
+    "estimated_age": "27",
+    "type": "Человек",
+    "image": "https://i.pinimg.com/736x/a7/63/e6/a763e6ca07fda89387f47fef16b12ea0.jpg"
+  }
+]

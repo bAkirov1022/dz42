@@ -63,8 +63,60 @@ reset.onclick = function () {
     timer = null
     count = 0
     update()
-};
+}
 
+let xhr = new XMLHttpRequest()
+xhr.open("GET", "../data/characters.json", true)
 
+xhr.onload = () => {
+    if (xhr.status === 200) {
+        let data = JSON.parse(xhr.responseText)
+        let charactersList = document.querySelector(".characters-list")
+
+        data.forEach((character) => {
+            let card = document.createElement("div")
+            card.className = "character-card"
+
+            card.innerHTML = `
+        <div class="character-photo">
+          <img src="${character.image}" alt="${character.name}">
+        </div>
+        <h3>${character.name}</h3>
+        <p><strong>Источник:</strong> ${character.source}</p>
+        <p><strong>Возраст:</strong> ${character.estimated_age}</p>
+        <p><strong>Тип:</strong> ${character.type}</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Подробнее</a>
+      `
+
+            charactersList.appendChild(card)
+        })
+    } else {
+        console.error("Ошибка загрузки файла:", xhr.status)
+    }
+}
+
+xhr.onerror = function () {
+    console.error("Произошла ошибка при запросе.")
+}
+
+xhr.send()
+
+const request = new XMLHttpRequest()
+request.open('GET', '../data/any.json', true)
+
+request.onload = () => {
+    if (request.status === 200) {
+        const data = JSON.parse(request.responseText)
+        console.log('Полученные данные:', data)
+    } else {
+        console.error('Ошибка при загрузке JSON:', request.status)
+    }
+}
+
+request.onerror = () => {
+    console.error('Ошибка сети')
+}
+
+request.send()
   
   
